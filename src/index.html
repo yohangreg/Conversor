@@ -1,0 +1,43 @@
+<html>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+</style>
+  <head>
+    <title>ImersãoDev - Conversor de Moedas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+    <section class="converter">
+      <img class="aluralogo" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="pagelogo" alt="">
+      <p class="titulo">Conversor de Moedas</p>
+      <label class="tipo" for="current"> De: </label>
+      <section class="moedaUm">
+        <div>
+          <select class="tipoMoedaUm" name="current">
+            <option value="brl">BRL</option>
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+           </select>
+        </div>
+        <div> 
+          <input id="valorMoedaUm" type="number" placeholder="00.00" required autofocus>
+        </div>
+      </section>
+      <label class="tipo" for="currentValor">Para:</label>       
+      <section class="moedaDois">
+        <div>
+          <select class="tipoMoedaDois" name="current"> 
+             <option value="usd">USD</option>
+             <option value="eur">EUR</option>
+             <option value="brl">BRL</option>
+       </select>
+        </div>
+        <div>
+        <p id="valorMoedaDois"></p>
+        </div>
+      </section>
+        <button>Converter</button>
+     </main>   
+  </body>
+</html>
